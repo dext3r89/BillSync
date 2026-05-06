@@ -1,0 +1,8 @@
+
+> billsync-backend@1.0.0 dev C:\Users\User\Documents\GitHub\BillSync\backend
+> node routes/server.js
+
+✓ Database initialized
+✓ File watcher started - monitoring ./tracked_files
+✓ MSAL initialized successfully
+ ELIFECYCLE  Command failed with exit code 1.

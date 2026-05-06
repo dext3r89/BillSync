@@ -1,0 +1,19 @@
+{
+  "name": "billsync-backend",
+  "version": "1.0.0",
+  "description": "BillSync backend server",
+  "main": "routes/server.js",
+  "scripts": {
+    "start": "node routes/server.js",
+    "dev": "node routes/server.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.16.0",
+    "axios": "^1.7.2",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
