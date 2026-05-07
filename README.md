@@ -86,16 +86,16 @@ billsync/
 ## Screenshots
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.PNG)
 
 ### Activity Tracking
-![Activity Tracking](./screenshots/activity-tracker.png)
+![Activity Tracking](./screenshots/activity-tracker.PNG)
 
 ### Billing Engine
-![Billing](./screenshots/billing.png)
+![Billing](./screenshots/billing.PNG)
 
 ### Invoice Preview
-![Invoice Preview](./screenshots/invoice-preview.png)
+![Invoice Preview](./screenshots/invoice-preview.PNG)
 
 
 
