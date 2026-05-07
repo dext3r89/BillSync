@@ -83,6 +83,24 @@ billsync/
 
 ---
 
+## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Activity Tracking
+![Activity Tracking](./screenshots/activity-tracker.png)
+
+### Billing Engine
+![Billing](./screenshots/billing.png)
+
+### Invoice Preview
+![Invoice Preview](./screenshots/invoice-preview.png)
+
+
+
+---
+
 ## Getting Started
 
 ### Prerequisites
