@@ -278,8 +278,10 @@ Default increment: **6 minutes**. Default rate: **R100/unit** (duration), **R40/
 
 ## Known Limitations
 
-
+- **Rule-Based AI Classification**: Has Accuracy Limits. Current StateAI/task classification currently relies on keywords, heuristics, metadata patterns, confidence scoring.
+- **No Direct Ghost Practice API Integration**: Current State exports GP-ready CSV files NOT:live sync into Ghost Practice.
 - **Single-user auth**: Tokens are stored in memory. Authentication is lost on server restart and only one user is supported at a time.
+- **Local File Tracking Constraints**: local filesystem monitoring Limitation is that tracking depends on: monitored directories and local machine activity
 - **No API authentication**: Activity and billing endpoints are unprotected. Any client that can reach port 3001 has full access.
 - **`time_entries` table unused**: Defined in the schema but not populated by any service.
 - **No pagination**: `GET /activities` returns all records without limit.
