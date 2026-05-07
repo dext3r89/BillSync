@@ -278,11 +278,9 @@ Default increment: **6 minutes**. Default rate: **R100/unit** (duration), **R40/
 
 ## Known Limitations
 
-- **No deduplication**: Outlook polling re-imports previously fetched emails on every cycle. Activities will duplicate across poll intervals.
+
 - **Single-user auth**: Tokens are stored in memory. Authentication is lost on server restart and only one user is supported at a time.
 - **No API authentication**: Activity and billing endpoints are unprotected. Any client that can reach port 3001 has full access.
-- **AI enhancement not implemented**: The `aiEnhancementService` is a documented stub. No OpenAI call is made.
-- **No export or invoice generation**: Billing data is computed and returned via the API but no export or PDF endpoint exists.
 - **`time_entries` table unused**: Defined in the schema but not populated by any service.
 - **No pagination**: `GET /activities` returns all records without limit.
 
